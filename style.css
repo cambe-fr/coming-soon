@@ -43,9 +43,27 @@ a:hover {
     text-align: center;
 }
 
+.contact-mobile {
+    font-size: 18px;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
 .title {
     padding: 30px;
+    text-align: center;
     font-size: 65px;
+    line-height: 60px;
+}
+
+.title-mobile {
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
     line-height: 60px;
 }
 
@@ -60,6 +78,25 @@ a:hover {
     width: 500px;
 }
 
+.fluid-mobile {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+}
+
+.subtitle-mobile {
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 19px;
+}
+
 .hide {
+    display: none;
+}
+
+#desktop, #mobile {
     display: none;
 }
