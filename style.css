@@ -23,6 +23,15 @@ a:hover {
     position: relative;
 }
 
+.container-mobile {
+    height: 100%;
+    width: 100%;
+    background-image: url("./logo.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
 .vertical-center {
     width: 100%;
     text-align: center;
@@ -61,10 +70,10 @@ a:hover {
 }
 
 .title-mobile {
-    padding: 10px;
+    padding: 0px 50px;
     text-align: center;
     font-size: 26px;
-    line-height: 60px;
+    line-height: 30px;
 }
 
 .subtitle {
@@ -85,7 +94,6 @@ a:hover {
 }
 
 .subtitle-mobile {
-    padding-top: 30px;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
