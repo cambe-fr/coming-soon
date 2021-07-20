@@ -26,10 +26,18 @@ a:hover {
 .container-mobile {
     height: 100%;
     width: 100%;
+}
+
+.top-mobile {
+    height: 75%;
     background-image: url("./logo.gif");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
+}
+
+.bottom-mobile {
+    height: 25%;
 }
 
 .vertical-center {
